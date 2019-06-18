@@ -48,7 +48,7 @@ def evaluate_hands(black, white)
             end
         end
 
-        # *** case where there are no pairs existing in both hands
+        # *** case where there are no pairs existing in both hands or pairs in both hands are the similar
         card_values.reverse.each do |v|
             if black.has_key?(v) && white.has_key?(v)
                 next
