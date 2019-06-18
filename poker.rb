@@ -21,9 +21,6 @@ def evaluate_hands(black, white)
         blacks_pair = nil
         whites_pair = nil
 
-        blacks_cards_not_in_pairs = []
-        whites_cards_not_in_pairs = []
-
         black.each do |k, v|
             if black[k].class == Array
                 blacks_pair = k
